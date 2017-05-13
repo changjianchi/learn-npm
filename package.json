@@ -1,0 +1,29 @@
+{
+  "name": "learn-npm-1",
+  "version": "0.0.1",
+  "description": "学习使用Npm模块",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test.js",
+    "check": "fecs check lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changjianchi/learn-npm.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "xuexb",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/changjianchi/learn-npm/issues"
+  },
+  "homepage": "https://github.com/changjianchi/learn-npm#readme",
+  "dependencies": {
+    "urlpath": "^1.0.2"
+  },
+  "devDependencies": {
+    "fecs": "^1.2.4"
+  }
+}
